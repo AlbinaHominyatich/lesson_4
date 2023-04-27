@@ -23,7 +23,7 @@ def black_hole_named(**kwargs):
 black_hole_named(name="Gleb", planet="Earth", number = 5)
 
 
-def black_hole_full(*args, **kwargs):
+def black_hole_full(var1, *args, var2 = 2, **kwargs):
     if not args: #для перевірки наявності не іменнованих аргументів
         return  0
     for argument in args:
