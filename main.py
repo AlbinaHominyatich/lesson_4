@@ -30,5 +30,6 @@ def black_hole_full(var1, *args, var2 = 2, **kwargs):
         print(argument)
     for key, value in kwargs.items():
         print(key, value)
+    print(var1)
 black_hole_full(234, "Earth", "rusnya", "time", 6776,
                 name="Gleb", planet="Earth", number = 5)
